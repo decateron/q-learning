@@ -16,3 +16,9 @@ There are 6 discrete deterministic actions:
 - 5: dropoff passenger
 ### Rewards
 There is a reward of -1 for each action and an additional reward of +20 for delievering the passenger. There is a reward of -10 for executing actions "pickup" and "dropoff" illegally.
+### Rendering
+- blue: passenger
+- magenta: destination
+- yellow: empty taxi
+- green: full taxi
+- other letters (R, G, B and Y): locations for passengers and destinations
